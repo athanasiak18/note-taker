@@ -10,3 +10,8 @@ router.get('/notes', (req, res) => {
 outer.post('/notes', (req, res) => {
 
     const { title, text, id } = req.body;
+    const newNote = {
+        title,
+        text,
+        id: uuid()
+    };
