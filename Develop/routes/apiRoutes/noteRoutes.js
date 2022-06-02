@@ -6,3 +6,7 @@ const uuid = require('../../helpers/uuid.js');
 router.get('/notes', (req, res) => {
     res.json(notes)
 });
+
+outer.post('/notes', (req, res) => {
+
+    const { title, text, id } = req.body;
