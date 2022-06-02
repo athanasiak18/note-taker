@@ -29,3 +29,5 @@ router.get('/notes/:id', (req, res) => {
             res.send(404);
         }
 });
+
+module.exports = router;
