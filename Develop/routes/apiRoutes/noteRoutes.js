@@ -17,6 +17,15 @@ outer.post('/notes', (req, res) => {
     };
 
         const note = createNewNote(newNote, notes);
-        
+
         res.json(note);
     });
+
+router.get('/notes/:id', (req, res) => {
+    const result = findById(req.params.id, notes);
+        if (result) {
+            res.json(result);
+        } else {
+            res.send(404);
+        }
+});
