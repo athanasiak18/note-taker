@@ -15,3 +15,8 @@ outer.post('/notes', (req, res) => {
         text,
         id: uuid()
     };
+
+        const note = createNewNote(newNote, notes);
+        
+        res.json(note);
+    });
