@@ -1,21 +1,14 @@
 # Note Taker
 
+https://note-taker-app-2002.herokuapp.com/
+
 ## Description
 A page that can write and save notes
+
+<img src="Develop/public/assets/images/screenshot.png">
 
 ## Link
 Please see deployed link for application use: 
 
-## Technologies
-* Express.js
-* APIs
-* Heroku
-* HTML
-* CSS
-* JavaScript
-
-## Installation
-Install "npm install express" 
-
-## Usage
-All dependencies must be install prior to using application. 
+## Installation 
+Use link or clone the repository, run npm i express, run npm i uuid then run: "npm start" and navigate to localhost environment.
