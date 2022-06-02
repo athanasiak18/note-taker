@@ -1,13 +1,11 @@
 const fs = require('fs');
 const path = require('path');
 
-//note id numbers
 function findById(id, notes) {
     const result = notes.filter(note => note.id === id)[0];
     return result;
 }
 
-//create a new note
 function createNewNote(body, notes) {
     const newNote = body;
 
